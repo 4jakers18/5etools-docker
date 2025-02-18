@@ -4,7 +4,7 @@ services:
     container_name: 5etools-docker
     image: jafner/5etools-docker
     volumes:
-      - ~/5etools-docker/htdocs:/usr/local/apache2/htdocs
+      - /home/docker/5etools-docker/htdocs:/usr/local/apache2/htdocs
     ports:
      - 6969:80/tcp
     environment:
