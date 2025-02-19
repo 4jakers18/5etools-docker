@@ -10,6 +10,7 @@ services:
     environment:
      - IMG=TRUE # Set to TRUE to pull images from https://github.com/5etools-mirror-2/5etools-img (as a Git submodule)
      - OFFLINE_MODE=FALSE # Optional. Expects "TRUE" or "FALSE". Disables checking for new updates.
+#fixed the links in init.sh
 
 # Uncomment this block to use a docker-managed volume:
 #volumes:
